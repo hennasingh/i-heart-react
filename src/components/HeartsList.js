@@ -1,4 +1,5 @@
-import Heart from './Heart';
+//import Heart from './Heart';
+import CandyColoredHeart from "./CandyColoredHeart";
 
 const messages = [
     'cool cud',
@@ -6,7 +7,7 @@ const messages = [
     'you are bear',
     'team bear',
     'time hug',
-    'fang',
+    'Love you',
     'bog love',
     'me have love',
     'all hover',
@@ -19,15 +20,15 @@ const messages = [
     'be my bear',
     'yank o way',
     'mage love',
-    'oy',
-    'in a fan'
+    'Miss you',
+    'I am a fan'
 ];
 
 const HeartsList = () => {
     return (
         <div className='hearts-container'>
             {messages.map((message, index) => (
-                <Heart key={index} msg={message}/>
+                <CandyColoredHeart key={index} msg={message}/>
             ))}
         </div>
     );
